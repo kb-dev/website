@@ -1,0 +1,28 @@
+svg text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+svg text::selection {
+    background: none;
+}
+
+svg #text3809, svg #text3813 {
+    transition: transform .5s;
+}
+
+svg:hover #text3809 {
+    transform: translate(-10px, 53.643px);
+}
+
+svg:hover #text3813 {
+    transform: translate(10px, 53.643px);
+}
+
+@font-face {
+    font-family: "Erica Type";
+    src: url('../assets/Erika Type.ttf');
+}
