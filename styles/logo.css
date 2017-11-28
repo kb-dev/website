@@ -10,15 +10,15 @@ svg text::selection {
     background: none;
 }
 
-svg #text3809, svg #text3813 {
+svg #r-br-logo, svg #l-br-logo {
     transition: transform .5s;
 }
 
-svg:hover #text3809 {
+svg:hover #l-br-logo {
     transform: translate(-10px, 53.643px);
 }
 
-svg:hover #text3813 {
+svg:hover #r-br-logo {
     transform: translate(10px, 53.643px);
 }
 

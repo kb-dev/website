@@ -10,16 +10,18 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="209.17792mm"
-   height="61.686359mm"
-   viewBox="0 0 209.17792 61.686359"
+   width="211.43333mm"
+   height="60.911259mm"
+   viewBox="0 0 211.43333 60.911258"
    version="1.1"
-   id="svg4183"
+   id="svg538"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="C:\Users\Aamu Lumi\Desktop\kbd\logo.png"
    inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:export-ydpi="300">
   <defs
-     id="defs4177" />
+     id="defs532" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,11 +29,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="390.64556"
-     inkscape:cy="37.422105"
+     inkscape:zoom="1.561776"
+     inkscape:cx="365.56471"
+     inkscape:cy="31.743805"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3817"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -43,7 +45,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata4180">
+     id="metadata535">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -58,49 +60,54 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-0.44116815,-0.04181589)">
+     transform="translate(2.3142238e-6,-236.08871)">
     <g
-       transform="matrix(1.6061379,0,0,1.6061379,-74.492094,-958.09887)"
+       transform="matrix(1.5988789,0,0,1.5988789,-91.707401,-858.02389)"
        style="isolation:isolate"
-       id="g3817">
+       id="g382">
       <g
-         id="g3803"
-         transform="translate(31.274,580.317)">
+         transform="translate(41.58,667.754)"
+         id="g364">
         <text
-           id="text3799"
-           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#b95c7e;stroke:none;fill-opacity:1;"
-           transform="translate(30.454,53.643)">k</text>
+           transform="translate(30.454,53.643)"
+           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#b95c7e;stroke:none"
+           id="text360">k</text>
         <text
-           id="text3801"
-           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#943156;stroke:none;fill-opacity:1;"
-           transform="translate(60.908,53.643)">b</text>
+           transform="translate(60.908,53.643)"
+           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#943156;stroke:none"
+           id="text362">b</text>
       </g>
       <g
-         id="g3807"
-         transform="translate(125.428,579.967)"
-         style="fill:#de94af;fill-opacity:1">
+         transform="translate(136.131,667.757)"
+         id="g368">
         <text
-           id="text3805"
-           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#de94af;stroke:none;fill-opacity:1"
-           transform="translate(0,53.643)">d</text>
+           transform="translate(0,53.643)"
+           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#de94af;stroke:none"
+           id="text366">d</text>
       </g>
       <g
-         id="g3811"
-         transform="translate(35.981,582.652)"
-         style="fill:#6f1234;fill-opacity:1">
+         transform="translate(161.629,671.089)"
+         id="g372">
         <text
-           id="text3809"
-           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#6f1234;stroke:none;fill-opacity:1"
-           transform="translate(0,53.643)">&lt;</text>
+           transform="translate(0,25.033)"
+           style="font-style:normal;font-weight:400;font-size:28px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#de94af;stroke:none"
+           id="text370">ev</text>
       </g>
       <g
-         id="g3815"
-         transform="translate(152.115,582.652)"
-         style="fill:#6f1234;fill-opacity:1">
+         transform="translate(46.684,670.089)"
+         id="g376">
         <text
-           id="text3813"
-           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#6f1234;stroke:none;fill-opacity:1"
-           transform="translate(0,53.643)">&gt;</text>
+           transform="translate(0,53.643)"
+           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#6f1234;stroke:none"
+           id="l-br-logo">&lt;</text>
+      </g>
+      <g
+         transform="translate(164.819,670.089)"
+         id="g380">
+        <text
+           transform="translate(0,53.643)"
+           style="font-style:normal;font-weight:400;font-size:60px;font-family:'Erica Type';letter-spacing:-5.6692915;fill:#6f1234;stroke:none"
+           id="r-br-logo">&gt;</text>
       </g>
     </g>
   </g>
