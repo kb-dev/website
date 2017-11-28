@@ -72,8 +72,13 @@ body {
     margin-top: 15vh;
 }
 
-#team-block {
+#details-block {
     color: #B95C7E;
+}
+
+#team-block {
+    color: white;
+    background-color: #B95C7E;
 }
 
 #footer {
@@ -84,6 +89,28 @@ body {
     line-height: 5vh;
     padding-bottom: 0;
     text-align: right;
+}
+
+#services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.service {
+    margin-top: 2vh;
+    max-width: 350px;
+    width: 28vw;
+    min-width: 200px;
+}
+
+.service-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 3vmin;
+    height: 20vmin;
 }
 
 #team-container {
