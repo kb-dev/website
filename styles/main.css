@@ -88,7 +88,13 @@ body {
     height: 5vh;
     line-height: 5vh;
     padding-bottom: 0;
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-right {
+    height: 100%;
 }
 
 #services-container {
@@ -133,6 +139,17 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.member-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer-left .fa {
+    vertical-align: middle;
+    margin-right: 2vw;
 }
 
 .team-photo {
