@@ -12,39 +12,39 @@
     <meta name="author" content="KBD" />
     <meta name="publisher" content="KBD" />
 
-    <link rel="icon" type="image/png" href="favicon.png" />    
+    <link rel="icon" type="image/png" href="favicon.png" />
 
     <!-- Critical CSS -->
     <style>
         @font-face {
             font-family: "Nova Round";
-            src: url('../assets/NovaRound.ttf');
+            src: url(../assets/NovaRound.ttf)
         }
 
         @font-face {
             font-family: "Libre Franklin";
-            src: url('../assets/LibreFranklin-Light.ttf');
+            src: url(../assets/LibreFranklin-Light.ttf)
         }
 
         a {
             color: white;
-            text-decoration: none;
+            text-decoration: none
         }
 
         html {
-            font-size: calc(0.6em + 1vw);
+            font-size: calc(.6em + 1vw)
         }
 
         body {
             overflow-x: hidden;
             margin: 0;
             text-align: center;
-            font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+            font-family: "Libre Franklin", Arial, Helvetica, sans-serif
         }
 
         #page-container {
             display: flex;
-            flex-direction: column;
+            flex-direction: column
         }
 
         .logo {
@@ -52,43 +52,36 @@
             margin: auto;
             margin-bottom: 3vmin;
             height: 15vmin;
-            width: 50vw;
+            width: 50vw
         }
 
         .block {
             width: 90vw;
             min-height: 45vh;
-            padding: 0 5vw 5vh 5vw;
+            padding: 0 5vw 5vh 5vw
         }
 
         #top-block {
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column-reverse
         }
 
         #informations-block {
             background-color: #B95C7E;
-            color: white;
+            color: white
         }
 
         .informations {
-            margin-top: 15vh;
-        }
-
-        .service-logo {
-            display: block;
-            margin: auto;
-            margin-bottom: 3vmin;
-            height: 20vmin;
+            margin-top: 15vh
         }
 
         h2 {
             font-size: 1.5rem;
-            font-family: "Nova Round", Arial, Helvetica, sans-serif;
+            font-family: "Nova Round", Arial, Helvetica, sans-serif
         }
 
         h3 {
-            font-size: 1.3rem;
+            font-size: 1.3rem
         }
     </style>
 </head>
@@ -166,9 +159,16 @@
         </div>
     </div>
 
-    <!-- Styles -->
+    <script>
+        var cb = function () {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = 'styles/main.css';
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);</script>
 </body>
 
 </html>
-
-<link rel="stylesheet" href="styles/main.css">
