@@ -15,11 +15,11 @@ svg #r-br-logo, svg #l-br-logo {
 }
 
 svg:hover #l-br-logo {
-    transform: translate(-10px, 53.643px);
+    transform: translate(-30px, 0);
 }
 
 svg:hover #r-br-logo {
-    transform: translate(10px, 53.643px);
+    transform: translate(30px, 0);
 }
 
 @font-face {
