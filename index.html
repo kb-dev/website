@@ -60,7 +60,11 @@
             <h2>Notre équipe</h2>
             <div id="team-container">
                 <div class="team-member">
-                    <img class="team-photo" src="assets/photo-jean.png" alt="Jean Batista">
+                    <picture>
+                        <source class="team-photo" srcset="assets/photo-jean.webp" type="image/webp">
+                        <source class="team-photo" srcset="assets/photo-jean.png" type="image/png">                        
+                        <img class="team-photo" src="assets/photo-jean.png" alt="Jean Batista">
+                    </picture>
                     <div class="member-informations">
                         <strong>Jean Batista</strong>
                         Co-Fondateur
@@ -72,7 +76,11 @@
                         <strong>Florian Kauder</strong>
                         Co-Fondateur
                     </span>
-                    <img class="team-photo" src="assets/photo-flo.png" alt="Florian Kauder">
+                    <picture>
+                        <source class="team-photo" srcset="assets/photo-flo.webp" type="image/webp">
+                        <source class="team-photo" srcset="assets/photo-flo.png" type="image/png">                        
+                        <img class="team-photo" src="assets/photo-flo.png" alt="Florian Kauder">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -83,4 +91,3 @@
 </body>
 
 </html>
-<link rel="stylesheet" href="styles/main.css">
