@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: "Erica Type";
-    src: url('../assets/Erika Type.ttf');
-}
-
-@font-face {
     font-family: "Libre Franklin";
     src: url('../assets/LibreFranklin-Light.ttf');
 }
@@ -42,8 +37,7 @@ body {
 
 .logo {
     display: block;
-    margin: auto;
-    margin-bottom: 3vmin;
+    margin: 0 auto 3vmin auto;
     height: 15vmin;
     width: 60vw;
 }
@@ -114,8 +108,7 @@ body {
 
 .service-logo {
     display: block;
-    margin: auto;
-    margin-bottom: 3vmin;
+    margin: 0 auto 3vmin auto;
     height: 20vmin;
 }
 
