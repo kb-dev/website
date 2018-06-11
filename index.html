@@ -7,10 +7,24 @@
     <!-- meta -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta name="description" content="Cabinet de développement logiciel installé à Bordeaux." />
-    <meta name="keywords" content="Web, Développement, Logiciel, Javascript, Cabinet, Agence" />
-    <meta name="author" content="KBD" />
-    <meta name="publisher" content="KBD" />
+    <meta name="description" content="Des artisans du Web, des clients exigeants, des projets ambitieux : bienvenue dans notre cabinet bordelais de développement Web !"
+    />
+    <meta name="keywords" content="KBDev, Web, Développement, Logiciel, Javascript, Cabinet, Agence, Bordeaux" />
+    <meta name="author" content="KBDev" />
+    <meta name="publisher" content="KBDev" />
+    <meta property="og:title" content="KBDev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kbdev.io/" />
+    <meta property="og:image" content="https://kbdev.io/assets/logo.png" />
+    <meta property="og:description" content="Des artisans du Web, des clients exigeants, des projets ambitieux : bienvenue dans notre cabinet bordelais de développement Web !"
+    />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@KB_Dev_" />
+    <meta property="twitter:creator" content="@KB_Dev_" />
+    <meta property="twitter:description" content="Des artisans du Web, des clients exigeants, des projets ambitieux : bienvenue dans notre cabinet bordelais de développement Web !"
+    />
+    <meta property="twitter:title" content="KBDev" />
+    <link rel="canonical" href="https://kbdev.io/">
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles/main.css">
@@ -19,20 +33,60 @@
 
 <body>
     <div id="page-container">
-        <div id="top-block" class="block">
-            <object class="logo" data="assets/logo.svg">
-                <img class="logo" src="assets/logo.svg" alt="KBDev" />
-            </object>
-        </div>
-        <div id="informations-block" class="block">
-            <h2>Cabinet de développement logiciel</h2>
-            <div class="informations">
-                <h3>Contact :
-                    <a href="mailto:contact@kbdev.io">contact@kbdev.io</a>
-                </h3>
+        <div id="presentation-block">
+            <div id="top-block" class="block">
+                <object class="logo" data="assets/logo.svg">
+                    <img class="logo" src="assets/logo.svg" alt="KBDev" />
+                </object>
+            </div>
+            <div id="informations-block" class="block">
+                <h2>Cabinet de développement logiciel</h2>
+                <div class="informations">
+                    <h3>Contact :
+                        <a href="mailto:contact@kbdev.io">contact@kbdev.io</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="links-block">
+                <div class="link-block-pink-font">
+                    <a href="#team-block">Équipe</a>
+                </div>
+                <div class="link-block-white-font">
+                    <a href="#portfolio">Portfolio</a>
+                </div>
             </div>
         </div>
         <div id="details-block" class="block no-min-height">
+            <h2>
+                Pourquoi KBDev ?
+            </h2>
+
+            <div id="description-container">
+                <p>Soyons clair : si vous êtes ici, c'est que vous vous demandez ce qu'est cette petite boîte nommée
+                    <strong>KBDev</strong>.
+                </p>
+                <p>Même mieux, vous êtes en train de rechercher une entreprise pour vous aider dans un projet de développement,
+                    et vous avez
+                    <strong>besoin de main d'oeuvre pour accélerer votre projet.</strong>
+                </p>
+                <p>Toujours plus loin, votre projet concerne le
+                    <strong>Web</strong>, comme le développement d'un site aux besoins très spécfiques ou d'une application Web très
+                    importante, avec potentiellement une application mobile en plus.
+                </p>
+                <br />
+                <p>Vous êtes
+                    <strong>au bon endroit</strong> !</p>
+                <p>
+                    <strong>KBDev</strong> est une entreprise spécialisée dans le développement Web. Nous fabriquons des
+                    <strong>projets sur mesure</strong> pour chacun de nos clients, comme si nous étions des
+                    <strong>artisans du Web</strong>.</p>
+                <p>L'esprit de
+                    <strong>KBDev</strong> est de fournir des projets de
+                    <strong>qualité</strong> pour des clients exigeants, tout en nous adaptant à votre façon de travailler. Par exemple,
+                    nous pouvons aussi bien intégrer une de vos équipes que de réaliser votre projet en interne.
+                    <strong>Vous choisissez, nous exécutons.</strong>
+                </p>
+            </div>
             <h2>
                 Nous proposons actuellement trois types de services.
             </h2>
@@ -113,6 +167,14 @@
                 </div>
             </div>
         </div>
+        <div id="portfolio" class="block no-min-height">
+            <h2>
+                Portfolio
+            </h2>
+            <div class="portfolio-description">
+                Les projets que nous avons actuellement réalisés sont disponibles sur <a href="https://github.com/kb-dev">GitHub</a>.
+            </div>
+        </div>
         <div id="footer" class="block no-min-height">
             <span id="footer-left">
                 <a href="https://www.linkedin.com/company/18362687/">
@@ -123,10 +185,30 @@
                 </a>
             </span>
             <span id="footer-right">
-                © 2017 KBDev
+                © 2018 KBDev
             </span>
         </div>
     </div>
+
+    <script type="application/ld+json">
+        {
+            "@context":"http://schema.org",
+            "@type":"Organization",
+            "@id":"https://kbdev.io/#org",
+            "url":"https://kbdev.io",
+            "name":"KBDev",
+            "description":"Des artisans du Web, des clients exigeants, des projets ambitieux : bienvenue dans notre cabinet bordelais de développement Web !",
+            "logo":"https://kbdev.io/assets/logo.svg",
+            "email": "contact(at)kbdev.io",
+            "address":{
+                "@type":"PostalAddress",
+                "addressLocality":"GRADIGNAN",
+                "postalCode":"33170",
+                "streetAddress":"3 rue Auguste Renoir",
+                "addressCountry":"France"
+            }
+        }
+    </script>
 </body>
 
 </html>
